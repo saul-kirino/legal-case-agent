@@ -93,5 +93,4 @@ python run_agent.py "盗窃8000元自首初犯怎么判"
 - botpy (QQ 机器人 SDK)
 
 ## 项目演示见附件
-
-![项目延时](./docs/项目演示.gif)
+<img width="940" height="577" alt="屏幕录制 2026-05-16 152819_7" src="https://github.com/user-attachments/assets/03ed79aa-a6c5-4fc3-8a39-dca2e6f84c62" />
