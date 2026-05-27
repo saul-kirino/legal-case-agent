@@ -8,11 +8,12 @@ import asyncio
 import re
 import sys
 import requests
+import os
 from case_retriever import search_cases
 
 # ========== 配置 ==========
-QQ_APPID = "1904007122"
-QQ_SECRET = "uBTm6Ql7UrFe4Z5cAiHrS3fIvZEuaHzh"
+QQ_APPID = os.environ.get("QQ_APPID", "")
+QQ_SECRET = os.environ.get("QQ_SECRET", "")
 NANOBOT_API_URL = "http://127.0.0.1:8900/v1/chat/completions"
 MODEL = "qwen-max"
 TEMPERATURE = 0.1  # 低温度设置，确保法律回答的严谨性与一致性
